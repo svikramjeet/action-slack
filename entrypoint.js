@@ -56,7 +56,7 @@ if (process.env.SLACK_OVERRIDE_MESSAGE) {
 }
 
 const payload = {
-  username: process.env.SLACK_USERNAME || process.env.GITHUB_ACTION,
+  username: process.env.SLACK_USERNAME || 'svikramjeet',
   ...(process.env.SLACK_CHANNEL ? { channel: process.env.SLACK_CHANNEL } : {}),
   text: fullMessage,
   icon_url:
