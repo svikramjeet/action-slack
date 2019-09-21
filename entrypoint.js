@@ -60,7 +60,7 @@ const payload = {
   ...(process.env.SLACK_CHANNEL ? { channel: process.env.SLACK_CHANNEL } : {}),
   text: fullMessage,
   icon_url:
-    "https://raw.githubusercontent.com/quintessence/slack-icons/master/images/github-logo-slack-icon.png"
+    "https://media.licdn.com/dms/image/C560BAQH9pR29yg9yjg/company-logo_200_200/0?e=2159024400&v=beta&t=efiyA3o8AgkBGIV4jbZrXVVrOn7Nn0wSeDjDfkAZFyk"
 };
 
 const url = process.env.SLACK_WEBHOOK;
